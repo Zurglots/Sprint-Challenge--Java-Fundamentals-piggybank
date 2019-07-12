@@ -10,5 +10,4 @@ public abstract class Money
 	public abstract String getName();
 	public abstract double getValue();
 
-
 }

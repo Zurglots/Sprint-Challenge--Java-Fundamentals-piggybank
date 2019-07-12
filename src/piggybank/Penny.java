@@ -27,11 +27,11 @@ public class Penny extends Money
 	{
 		if(penny > 1) 
 		{
-			return this.penny + "Pennies";
+			return this.penny + " Pennies";
 		} 
 		else
 		{
-			return this.penny + "Penny";
+			return this.penny + " Penny";
 		}
 	}
 }

@@ -27,11 +27,11 @@ public class Quarter extends Money
 	{
 		if(quarter > 1) 
 		{
-			return this.quarter + "Quarters";
+			return this.quarter + " Quarters";
 		} 
 		else
 		{
-			return this.quarter + "Quarter";
+			return this.quarter + " Quarter";
 		}
 	}
 }

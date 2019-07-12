@@ -16,7 +16,7 @@ public class Dime extends Money
 	{
 		this.dime += 1;
 	}
-	
+
 // Methods
 	public double getValue()
 	{
@@ -27,11 +27,11 @@ public class Dime extends Money
 	{
 		if(dime > 1) 
 		{
-			return this.dime + "Dimes";
+			return this.dime + " Dimes";
 		} 
 		else
 		{
-			return this.dime + "Dime";
+			return this.dime + " Dime";
 		}
 	}
 }

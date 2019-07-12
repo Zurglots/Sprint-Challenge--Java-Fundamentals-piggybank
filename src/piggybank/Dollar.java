@@ -27,11 +27,11 @@ public class Dollar extends Money
 	{
 		if(dollar > 1) 
 		{
-			return this.dollar + "Dollars";
+			return this.dollar + " Dollars";
 		} 
 		else
 		{
-			return this.dollar + "Dollar";
+			return this.dollar + " Dollar";
 		}
 	}
 }

@@ -27,9 +27,18 @@ public class Main
 			total += m.getValue();
 		}
 
-		// Example sout from read me.
+		// Print total added to piggyBank formated by import.
+		System.out.println();
+		System.out.println("Current Total: ");
 		System.out.println("The piggy bank holds " + fp.format(total));
+		System.out.println();
+
+		// Print current contents of piggyBank.
+		System.out.println("Contents of piggy bank: ");
+		for(Money m : piggyBank)
+		{
+			double value = m.getValue();
+			System.out.println(m.getName() + ": " + fp.format(value));
+		}
 	}
-
-
 }

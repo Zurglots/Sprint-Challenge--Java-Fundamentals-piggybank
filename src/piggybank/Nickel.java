@@ -27,11 +27,11 @@ public class Nickel extends Money
 	{
 		if(nickel > 1) 
 		{
-			return this.nickel + "Nickels";
+			return this.nickel + " Nickels";
 		} 
 		else
 		{
-			return this.nickel + "Nickel";
+			return this.nickel + " Nickel";
 		}
 	}
 }
